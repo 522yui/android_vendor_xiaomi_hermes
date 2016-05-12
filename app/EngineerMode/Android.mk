@@ -8,6 +8,6 @@ LOCAL_MODULE_TAGS   := optional
 LOCAL_MODULE_CLASS  := APPS
 LOCAL_CERTIFICATE   := platform
 LOCAL_MODULE_SUFFIX := .apk
-LOCAL_SRC_FILES     := app/EngineerMode/EngineerMode.apk
+LOCAL_SRC_FILES     := EngineerMode.apk
 LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/app
 include $(BUILD_PREBUILT)
